@@ -53,9 +53,9 @@ function draw()
 }
 
 function hForce(){
-  Matter.Body.applyForce(ball,{x:0,y:0},{x:0.01,y:0})
+  Matter.Body.applyForce(ball,{x:0,y:0},{x:0.05,y:0})
 }
 
 function vForce(){
-  Matter.Body.applForce(ball,{x:0,y:0},{x:0,y:-0.01})
+  Matter.Body.applForce(ball,{x:0,y:0},{x:0,y:-0.05})
 }
